@@ -48,7 +48,7 @@
 
 
 					echo "<p class='mt-4 text-info'>Ihr <strong>Verbrauch</strong> beträgt: " .
-						$_POST['verbrauch']
+						$verbrauch
 						. " kWh.</p>"
 						. "<div class='row'><div class='col-md-8'><div class='alert alert-primary text-center' role='alert'>"
 						. "Ihre Kosten für <strong>Tarif A</strong> betragen: " . $tarifAKosten . "€<br/>"

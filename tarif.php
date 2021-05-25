@@ -18,9 +18,9 @@
 						<div class="col-6">
 							<div class="form-group">
 								<select class="form-select" id="verbrauch" name="verbrauch">
-									<option value="100">100 kwh</option>
-									<option value="2000">2000 kwh</option>
-									<option value="5000">5000 kwh</option>
+									<option value="100">100 kWh</option>
+									<option value="2000">2000 kWh</option>
+									<option value="5000">5000 kWh</option>
 								</select>
 							</div>
 						</div>
@@ -49,7 +49,7 @@
 
 					echo "<p class='mt-4 text-info'>Ihr <strong>Verbrauch</strong> beträgt: " .
 						$_POST['verbrauch']
-						. " kwh.</p>"
+						. " kWh.</p>"
 						. "<div class='row'><div class='col-md-8'><div class='alert alert-primary text-center' role='alert'>"
 						. "Ihre Kosten für <strong>Tarif A</strong> betragen: " . $tarifAKosten . "€<br/>"
 						. "Ihre Kosten für <strong>Tarif B</strong> betragen: " . $tarifBKosten . "€<br/>"
